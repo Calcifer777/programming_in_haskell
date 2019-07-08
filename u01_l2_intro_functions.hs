@@ -13,6 +13,6 @@ double x = x + x
 
 square x = x * x
 
-q23Fun n = if even n 
+q23 n = if even n 
            then n - 2
            else 3*n + 1
