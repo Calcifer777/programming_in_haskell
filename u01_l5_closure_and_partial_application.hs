@@ -14,3 +14,8 @@ genHostRequestBuilder host = (\apiKey resource id -> getRequestURL host apiKey r
 
 genApiRequestBuilder hostBuilder apiKey = (\resource id -> hostBuilder apiKey resource id)
 
+-- 5.4
+
+subtract2 = flip (-) 2
+-- subtract2 10
+
